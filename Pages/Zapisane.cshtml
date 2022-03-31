@@ -1,0 +1,27 @@
+﻿@page
+@using LataPrzestepne.Models;
+@model LataPrzestepne.Pages.ZapisaneModel
+@{
+    ViewData["Title"] = "Data in session";
+}
+<p>Dane zapisane w sesji</p>
+
+@foreach (var item in Model.Osoby)
+        {
+            <span>
+                @item.Imie, @item.Rok - rok
+
+                @if (@item.RokPrzestepny())
+                {
+                    <span>przestępny</span>
+                }
+                else
+                {
+                    <span>nieprzestępny</span>
+                }
+
+            </span>
+            <br />
+        }
+
+
