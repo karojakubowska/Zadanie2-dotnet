@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LataPrzestepne", "LataPrzestepne.csproj", "{4B6BA1A4-D558-4FC6-B949-99CB2998B692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LataPrzestepne", "LataPrzestepne.csproj", "{4B6BA1A4-D558-4FC6-B949-99CB2998B692}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

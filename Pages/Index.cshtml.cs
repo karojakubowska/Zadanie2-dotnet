@@ -1,4 +1,5 @@
-﻿using LataPrzestepne.Models;
+﻿using LataPrzestepne.Data;
+using LataPrzestepne.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
@@ -9,11 +10,13 @@ namespace LataPrzestepne.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         [BindProperty]
-        public Osoba Osoba { get; set; }
-        public List<Osoba> Osoby = new List<Osoba>();
-        public IndexModel(ILogger<IndexModel> logger)
+        public Person Person { get; set; }
+        public List<Person> People = new List<Person>();
+        private readonly PeopleContext _context;
+        public IndexModel(ILogger<IndexModel> logger, PeopleContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public void OnGet()
@@ -27,20 +30,27 @@ namespace LataPrzestepne.Pages
             {
                 return Page();
             }
-            TempData["Results"] = Osoba.CzyRokPrzestepny();
+            TempData["Results"] = Person.CzyRokPrzestepny();
 
             if (HttpContext.Session.GetString("DataList") == null)
             {
-                Osoby.Add(Osoba);
-                HttpContext.Session.SetString("DataList", JsonConvert.SerializeObject(Osoby));
+                People.Add(Person);
+                HttpContext.Session.SetString("DataList", JsonConvert.SerializeObject(People));
             }
             else 
             { 
                 var SessionList = HttpContext.Session.GetString("DataList");
-                Osoby = JsonConvert.DeserializeObject<List<Osoba>>(SessionList);
-                Osoby.Add(Osoba);
-                HttpContext.Session.SetString("DataList", JsonConvert.SerializeObject(Osoby));
+                People = JsonConvert.DeserializeObject<List<Person>>(SessionList);
+                People.Add(Person);
+                HttpContext.Session.SetString("DataList", JsonConvert.SerializeObject(People));
             }
+            Person.LeapYear = Person.RokPrzestepny();
+            Person.Result= Person.CzyRokPrzestepny();
+            DateTime date=DateTime.Now;
+            Person.Date = date;
+            People = _context.Person.ToList();
+            _context.Person.Add(Person);
+            _context.SaveChanges();
             return Page(); ;
         }
     }

@@ -1,7 +1,11 @@
+using LataPrzestepne.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<PeopleContext>(options =>options.UseSqlServer(builder.Configuration.GetConnectionString("LataPrzestepneDB")));
 builder.Services.AddMemoryCache();
 builder.Services.AddSession(options =>
 {

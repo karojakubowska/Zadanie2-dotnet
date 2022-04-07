@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\terg\source\repos\LataPrzestepne
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/terg/source/repos/LataPrzestepne/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,16 +39,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/LastSearches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFzdFNlYXJjaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/People/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/People/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/People/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/People/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/People/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/terg/source/repos/LataPrzestepne/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terg/source/repos/LataPrzestepne/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/SavedInSession.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2F2ZWRJblNlc3Npb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terg/source/repos/LataPrzestepne/Pages/Zapisane.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWmFwaXNhbmUuY3NodG1s
+[C:/Users/terg/source/repos/LataPrzestepne/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/terg/source/repos/LataPrzestepne/Pages/_ViewImports.cshtml]
